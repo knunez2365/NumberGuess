@@ -1,0 +1,100 @@
+* {
+  /* outline: solid; */
+  color: rgb(214, 93, 93);
+}
+
+body {
+  background-color: rgb(25, 36, 36);
+  font-family: sans-serif;
+}
+
+.toptop {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.try {
+  background-color: rgb(214, 93, 93);
+  color: rgb(25, 36, 36);
+  width: 120px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.try:hover {
+  background-color: rgb(176, 76, 76);
+}
+
+h2 {
+  font-size: 6em;
+  text-align: center;
+}
+
+.numberComp {
+  margin-top: -40px;
+  font-size: 4em;
+  background-color: rgb(214, 93, 93);
+  color: rgb(25, 36, 36);
+  text-align: center;
+  width: 85px;
+}
+.line {
+  width: 10px;
+  background-color: aliceblue;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+.sideScore {
+  font-size: 1.5em;
+  width: 200px;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  display: flex;
+}
+.guessHuman {
+  margin-top: 37px;
+  box-sizing: border-box;
+  background: rgb(33, 48, 48);
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+  height: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  font-size: 5em;
+  outline-color: rgb(214, 93, 93);
+  outline: solid;
+}
+
+.Submit {
+  background-color: rgb(33, 48, 48);
+  outline: solid;
+  outline-color: rgb(214, 93, 93);
+  height: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
